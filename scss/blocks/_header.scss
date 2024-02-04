@@ -1,0 +1,22 @@
+header {
+  display: block;
+}
+.header__container {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  flex-shrink: 0;
+  font-size: 15px;
+  margin-right: 64px;
+}
+.header__logo:hover {
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 768px ) {
+  .nav__button {
+    margin-left: auto;
+  }
+}

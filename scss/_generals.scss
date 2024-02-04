@@ -1,0 +1,267 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'DM Serif Display', "Public sans", sans-serif;
+    line-height: 1.5;
+    background-color: $white;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+.intro__container {
+  display: flex;
+}
+.intro__wrapper {
+  max-width: 550px;
+  height: 345px;
+  margin-top: 152px;
+}
+
+.intro__title {
+  font-size: 72px ;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.55px;
+  color: $san-juan-blue;
+}
+.intro__email {
+  font-family: Public sans;
+  color: $light-san-juan-blue;
+  padding: 15px 20px;
+  padding-right: 80px;
+  margin-top: 21px;
+  border-radius: 30px;
+  border : none;
+  box-shadow: 10 10 0 0 rgba(0, 0, 0, 0.3) ;
+  outline: none;
+}
+
+.intro__button {
+  position: relative;
+  right: 45px;
+  border: none;
+}
+.intro__text--wrapper {
+  margin-top: 16px;
+  margin-left: 20px;
+  display: flex;
+}
+.intro__text {
+  font-family: Public sans;
+  color: $light-san-juan-blue;
+}
+.intro__contact  {
+  font-family: Public sans;
+  color: $san-juan-blue;
+  text-decoration: none;
+}
+.intro__contact:hover {
+  font-weight: 700;
+}
+.intro__img {
+  margin-top: 74px;
+  margin-left: 206px;
+}
+
+.partner {
+  overflow: hidden;
+  background-color: $mirage-blue;
+  width: auto;
+  height: 472px;
+}
+
+.partner__wrapper {
+  width: 445px;
+  height: 192px;
+}
+
+.partner__title {
+  margin-top: 100px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.37px;
+  color: $white;
+}
+.partner__text {
+  font-family: Public sans;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: $white;
+}
+.partner__button {
+  display: flex;
+  margin-top: 48px;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 30px;
+  color: $white;
+  border-color: $white;
+}
+.partner__img {
+  position: relative;
+  left: 576px;
+  bottom: 130px;
+}
+.easy__container {
+  display: flex;
+  align-items: center;
+  margin-top: 150px ;
+}
+.easy__wrapper {
+  width: 445px;
+  height: 164px;
+  margin-right: 95px;
+}
+.easy__title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.37px ;
+  color: $san-juan-blue;
+}
+.easy__text {
+  margin-top: 24px;
+  font-family: Public Sans;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color:$light-san-juan-blue ;
+}
+.simple__container {
+  display: flex;
+  align-items: center;
+}
+.simple__wrapper {
+  width: 450px;
+  height: 56px;
+}
+.simple__title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.37px ;
+  color: $san-juan-blue;
+}
+
+.simple__text {
+  margin-top: 24px;
+  font-family: Public Sans;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color:$light-san-juan-blue ;
+}
+
+.simple__img {
+  position: relative;
+  left: 95px;
+}
+
+.features__container {
+  display: flex;
+}
+
+.features__wrapper {
+  margin-right: 30px;
+  max-width: 350px;
+  text-align: center;
+}
+.features__img {
+  margin-left: 120px;
+}
+.features__title {
+  margin-bottom: 16px;
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.14px ;
+  color: $san-juan-blue;
+}
+
+.features__text {
+  font-family: Public Sans;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.12px;
+  color:$light-san-juan-blue ;
+}
+
+.ready__container {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ready__title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.37px ;
+  color: $san-juan-blue;
+}
+
+.footer {
+  height: 100px;
+  background-color:$mirage-blue ;
+}
+.footer__container {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+.footer__logo {
+  flex-shrink: 0;
+  font-size: 15px;
+  margin-right: 64px;
+  margin-top: 31px;
+}
+.footer__logo:hover {
+  opacity: 0.7;
+}
+
+.footer__nav {
+  margin-top: 31px;
+  display: flex;
+  align-items: center;
+  &__list {
+      display: flex;
+      margin-right: 450px;
+      list-style-type: none;
+
+  }
+  &__link {
+      font-family: Public sans;
+      font-size: 15px;
+      line-height: 18px;
+      text-decoration: none;
+      margin-right: 40px;
+      color: $light-san-juan-blue;
+  }
+
+}
+.footer__nav__link:hover {
+  font-weight: 700;
+  color: $water-white;
+}
+.footer__logo__link {
+  margin-left: 24px;
+}
+.footer__logo__link:hover path {
+  fill: $charm-pink;
+}

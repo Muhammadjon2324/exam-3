@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    align-items: center;
+    &__list {
+        display: flex;
+        margin-right: 450px;
+        list-style-type: none;
+
+    }
+    &__link {
+        font-family: Public sans;
+        font-size: 15px;
+        line-height: 18px;
+        text-decoration: none;
+        margin-right: 40px;
+        color: $light-san-juan-blue;
+    }
+    &__button {
+        display: inline-block;
+        text-decoration: none;
+        padding: 15px 20px;
+        border-radius: 30px;
+        background-color: $dark-pink;
+        color: $water-white;
+        font-family: Public Sans;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 1px;
+
+    }
+}
+.nav__link:hover {
+    font-weight: 700;
+    color: $san-juan-blue;
+}
+.nav__button:hover {
+    background-color: $charm-pink;
+}
+
+
+
+ 
