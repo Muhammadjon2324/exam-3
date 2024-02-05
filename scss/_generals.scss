@@ -89,6 +89,7 @@ html {
 
 .partner__title {
   margin-top: 100px;
+  margin-bottom: 24px;
   font-weight: 400;
   font-size: 48px;
   line-height: 56px;
@@ -260,7 +261,10 @@ html {
   color: $water-white;
 }
 .footer__logo__link {
+  display: flex;
+  margin-top: 38px;
   margin-left: 24px;
+  text-decoration: none;
 }
 .footer__logo__link:hover path {
   fill: $charm-pink;
