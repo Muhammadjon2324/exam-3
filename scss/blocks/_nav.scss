@@ -3,7 +3,6 @@
     align-items: center;
     &__list {
         display: flex;
-        margin-right: 450px;
         list-style-type: none;
 
     }
@@ -17,6 +16,7 @@
     }
     &__button {
         display: inline-block;
+        margin-left: auto;
         text-decoration: none;
         padding: 15px 20px;
         border-radius: 30px;
